@@ -1,0 +1,122 @@
+@media only screen and (max-width: 767px) {
+    .banner-cont {
+        width: 100%;
+        margin: 5rem auto;
+    }
+
+    .banner-bg {
+        padding: 0.5rem 0
+    }
+
+    .banner-cont h1 {
+        font-size: 2.5rem;
+    }
+
+    .team-img {
+        margin-bottom: 30px;
+    }
+
+    .overlay-cont {
+        bottom: 10px;
+        left: 14px;
+    }
+
+    .navbar-toggler {
+        display: block;
+        position: absolute;
+        right: 6px;
+        top: 11px;
+    }
+
+    .navbar-toggler.show-x {
+        right: 6px;
+        top: 11px;
+    }
+
+    .navbar-toggler .bar:last-of-type {
+        bottom: 9px;
+    }
+
+    .navbar.show {
+        right: 0;
+    }
+
+    .navbar {
+        overflow: hidden;
+        padding: 50px 20px;
+        background: rgba(0, 0, 0, 0.9);
+        position: fixed;
+        right: -400px;
+        top: 0px;
+        z-index: 99;
+        width: 305px;
+        height: 100vh;
+        transition: all 700ms ease;
+    }
+
+    nav ul li a {
+        margin: 0 0 10px 0;
+        display: block;
+        border-bottom: 1px solid #242323;
+        padding-bottom: 10px;
+    }
+
+    .navbar .d-flex {
+        display: inherit !important;
+    }
+
+    .navbar-toggler .bar:first-of-type {
+        top: 12px;
+    }
+
+    .navbar-toggler.show-x .bar:first-of-type {
+        transform: translate(-45%, 70%) rotate(225deg);
+        top: 14px
+    }
+
+    .navbar-toggler.show-x .bar:last-of-type {
+        transform: translate(-45%, -195%) rotate(-225deg);
+    }
+
+    .navbar-toggler.show-x .bar:nth-child(2) {
+        display: none;
+    }
+
+    .navbar-toggler .bar {
+        background-color: #fd4766;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(0deg);
+        height: 3px;
+        width: 15px;
+        transition: transform 0.2s ease;
+    }
+
+    .sticky nav ul li a {
+        color: #fff;
+    }
+
+    .ready-work {
+        padding: 5rem 0;
+    }
+
+    .modern-design .d-flex {
+        display: inherit !important;
+    }
+
+    .modern-img {
+        min-height: 300px;
+        width: 100%;
+    }
+
+    .modern-design .flex-item {
+        width: 100%;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {}

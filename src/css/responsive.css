@@ -109,8 +109,17 @@
         width: 100%;
     }
 
+    .design-team {
+        padding: 2rem 0;
+    }
+
     .modern-design .flex-item {
         width: 100%;
+    }
+
+    .footer-logo,
+    .social-icons {
+        margin-bottom: 10px
     }
 
     .copyright {
@@ -119,4 +128,16 @@
 }
 
 
-@media only screen and (max-width: 768px) {}
+@media (min-width: 768px) and (max-width: 991px) {
+    .banner-cont {
+        width: 100%
+    }
+
+    .flex-item {
+        padding: 0.875rem 4%;
+    }
+
+    .copyright {
+        font-size: 11px;
+    }
+}

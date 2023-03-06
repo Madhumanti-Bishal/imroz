@@ -3,6 +3,7 @@ import picone from '../../images/picone.jpg';
 import pictwo from '../../images/pictwo.jpg';
 import picthree from '../../images/picthree.jpg';
 import picfour from '../../images/picfour.jpg';
+import { Link } from 'react-router-dom';
 
 const DesignTeam = () => {
     return (
@@ -28,13 +29,13 @@ const DesignTeam = () => {
                                 <div class="caption-box-one overlay-cont">
                                     <ul className='d-flex mb-2'>
                                         <li>
-                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                            <Link to="/"><i class="fab fa-facebook-f"></i></Link>
                                         </li>
                                         <li>
-                                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            <Link to="/"><i class="fab fa-linkedin-in"></i></Link>
                                         </li>
                                         <li>
-                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                            <Link to="/"><i class="fab fa-twitter"></i></Link>
                                         </li>
                                     </ul>
                                     <div className='client-name'>
@@ -56,13 +57,13 @@ const DesignTeam = () => {
                                 <div class="caption-box-one overlay-cont">
                                     <ul className='d-flex mb-2'>
                                         <li>
-                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                            <Link to="/"><i class="fab fa-facebook-f"></i></Link>
                                         </li>
                                         <li>
-                                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            <Link to="/"><i class="fab fa-linkedin-in"></i></Link>
                                         </li>
                                         <li>
-                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                            <Link to="/"><i class="fab fa-twitter"></i></Link>
                                         </li>
                                     </ul>
                                     <div className='client-name'>
@@ -84,13 +85,13 @@ const DesignTeam = () => {
                                 <div class="caption-box-one overlay-cont">
                                     <ul className='d-flex mb-2'>
                                         <li>
-                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                            <Link to="/"><i class="fab fa-facebook-f"></i></Link>
                                         </li>
                                         <li>
-                                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            <Link to="/"><i class="fab fa-linkedin-in"></i></Link>
                                         </li>
                                         <li>
-                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                            <Link to="/"><i class="fab fa-twitter"></i></Link>
                                         </li>
                                     </ul>
                                     <div className='client-name'>
@@ -112,13 +113,13 @@ const DesignTeam = () => {
                                 <div class="caption-box-one overlay-cont">
                                     <ul className='d-flex mb-2'>
                                         <li>
-                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                            <Link to="/"><i class="fab fa-facebook-f"></i></Link>
                                         </li>
                                         <li>
-                                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            <Link to="/"><i class="fab fa-linkedin-in"></i></Link>
                                         </li>
                                         <li>
-                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                            <Link to="/"><i class="fab fa-twitter"></i></Link>
                                         </li>
                                     </ul>
                                     <div className='client-name'>

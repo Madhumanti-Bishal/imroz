@@ -18,25 +18,5 @@
 <body>
   <div id="root"></div>
 </body>
-<script>
-
-
-
-  // Fixed Header
-  var header = document.querySelector('.top-header');
-
-
-  onScroll = () => {
-    var scrolledPage = Math.round(window.pageYOffset);
-    if (scrolledPage > 60) {
-      header.classList.add('sticky');
-    } else {
-      header.classList.remove('sticky');
-    }
-  }
-
-
-  document.addEventListener('scroll', onScroll);
-</script>
 
 </html>

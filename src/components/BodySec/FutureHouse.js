@@ -26,7 +26,7 @@ const FutureHouse = () => {
                                 <i class="fas fa-swatchbook"></i>
                             </div>
                             <div className='icon-txt'>
-                                <h5>Interior Design</h5>
+                                <h5>Landscape Design</h5>
                                 <p>
                                     Contrary to popular belief, Lorem Ipsum is not simply random text.
                                 </p>
@@ -37,7 +37,7 @@ const FutureHouse = () => {
                                 <i class="fas fa-swatchbook"></i>
                             </div>
                             <div className='icon-txt'>
-                                <h5>Interior Design</h5>
+                                <h5>Home Interior</h5>
                                 <p>
                                     Contrary to popular belief, Lorem Ipsum is not simply random text.
                                 </p>

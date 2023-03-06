@@ -6,7 +6,6 @@ const Header = () => {
     let activeStyle = {
         color: "#f9004d"
     };
-    let activeClassName = "underline";
 
     useEffect(() => {
         let header = document.querySelector('.top-header');
